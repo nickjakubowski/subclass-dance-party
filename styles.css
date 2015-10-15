@@ -14,9 +14,9 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
-.lineUpButton{
+.lineUpButton, .moveButton{
   padding:5px 12px;
-  color:red;
+  tex:red;
   float:right;
 }
 .topbar{

@@ -31,12 +31,26 @@ $(document).ready(function() {
   });
 
 $(".lineUpButton").on("click", function(event) {
+
   var j = 0;
  for(var i = 0; i < dancers.length; i++) {
   dancers[i].setPosition(i * 1.5,window.screen.width/j++);
 }
+});
+
+$(".moveButton").on("click", function(event) {
+
+ //  var j = 0;
+ // for(var i = 0; i < dancers.length; i++) {
+ 
+ //var cur = dancers[i].$node[i].className;
+ $( ".dancer" ).animate({ "left": "+=50px", "right": "+=50px"}, "slow" );
+
+//}
+
 
 });
+
 
 
 
