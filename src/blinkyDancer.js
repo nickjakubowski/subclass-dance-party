@@ -2,6 +2,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
 
   makeDancer.call(this, top, left, timeBetweenSteps);
   // this.node
+  window.dancers.push(this);
   
 };
 
