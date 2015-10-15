@@ -2,6 +2,7 @@ var makeColorDancer = function(top, left, timeBetweenSteps) {
 
   makeDancer.call(this, top, left, timeBetweenSteps);
   // this.node
+  this.$node.addClass("dDancer");
   
 };
 
@@ -10,6 +11,6 @@ makeColorDancer.prototype.constructor = makeColorDancer;
 makeColorDancer.prototype.step = function() {
 
   makeDancer.prototype.step.call(this);
-  this.$node.toggle();
+  this.$node.toggleClass("cDancer");
 };
 

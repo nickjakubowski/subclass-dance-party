@@ -2,6 +2,7 @@ var makeDrunkDancer = function(top, left, timeBetweenSteps) {
 
   makeDancer.call(this, top, left, timeBetweenSteps);
   // this.node
+  this.$node.addClass("drunkDancer");
   
 };
 

@@ -25,3 +25,21 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.drunkDancer {
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+
+.dDancer {
+  border:20px solid green;
+  border-radius:10px;
+  position:absolute;
+}
+
+.cDancer {
+  border:20px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
