@@ -44,6 +44,14 @@ $(".moveButton").on("click", function(event) {
     setInterval(function(){  $( ".dDancer" ).animate({ "left": "+=50px", "right": "+=50px"}, "slow" );
      $( ".drunkDancer" ).animate({ "top": "+=50px", "bottom": "+=100px"}, "fast" );
      $( ".bDancer" ).animate({ "left": "+=50px", "right": "+=50px", "top": "+=50px"}, "slow" );}, 750);
+
+        setInterval(function(){  $( ".dDancer" ).animate({ "right": "-=50px", "left": "+=50px"}, "fast" );
+     $( ".drunkDancer" ).animate({ "bottom": "-=50px", "top": "-=100px"}, "fast" );
+     $( ".bDancer" ).animate({ "right": "-=50px", "left": "+=50px", "bottom": "-=50px"}, "slow" );}, 1500);
+
+           setInterval(function(){  $( ".dDancer" ).animate({ "bottom": "+=50px", "left": "-=50px"}, "fast" );
+     $( ".drunkDancer" ).animate({ "left": "+=50px", "right": "+=100px"}, "fast" );
+     $( ".bDancer" ).animate({ "right": "-=50px", "left": "+=50px", "bottom": "-=50px"}, "slow" );}, 2250);
   
 
 
