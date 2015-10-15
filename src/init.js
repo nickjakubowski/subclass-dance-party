@@ -33,20 +33,18 @@ $(document).ready(function() {
 $(".lineUpButton").on("click", function(event) {
 
   var j = 0;
- for(var i = 0; i < dancers.length; i++) {
-  dancers[i].setPosition(i * 1.5,window.screen.width/j++);
-}
+  for(var i = 0; i < dancers.length; i++) {
+    dancers[i].setPosition(i * 1.5,window.screen.width/j++);
+  }
 });
 
 $(".moveButton").on("click", function(event) {
 
- //  var j = 0;
- // for(var i = 0; i < dancers.length; i++) {
- 
- //var cur = dancers[i].$node[i].className;
- $( ".dancer" ).animate({ "left": "+=50px", "right": "+=50px"}, "slow" );
 
-//}
+    setInterval(function(){  $( ".dDancer" ).animate({ "left": "+=50px", "right": "+=50px"}, "slow" );
+     $( ".drunkDancer" ).animate({ "top": "+=50px", "bottom": "+=100px"}, "fast" );
+     $( ".bDancer" ).animate({ "left": "+=50px", "right": "+=50px", "top": "+=50px"}, "slow" );}, 750);
+  
 
 
 });
