@@ -57,12 +57,6 @@ $(".moveButton").on("click", function(event) {
 
 });
 
-
-
-
-
-
-
 });
 
 
